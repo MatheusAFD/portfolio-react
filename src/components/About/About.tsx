@@ -1,11 +1,12 @@
-import { CardAbout } from "./CardAbout";
-import { cardAboutItems } from "../util/AboutData";
+import { CardAbout } from "../Cards/CardAbout";
+import { cardAboutItems } from "../../util/AboutData";
+import { TitleSection } from "../TitleSection";
 
 export function About() {
   return (
-    <section className="mt-24 bg-dark-800 h-[200vh]">
-      <div className="m-32  text-gray-100 max-w-[1032px]">
-        <h3 className="text-3xl font-semibold text-purple-700">About me:</h3>
+    <section className="mt-24 bg-dark-800 ">
+      <div className=" text-gray-100 max-w-[1100px] m-auto flex flex-col  2xl:m-auto">
+        <TitleSection title="About me:" />
         <p className="mt-2 leading-8 font-semibold">
           Hi, my name is Jayjay Dinero Dinero, i am a Fullstack web developer,
           UI designer, and Mobile developer. I jhave honed my skills in Web
@@ -19,18 +20,19 @@ export function About() {
             seamless web experience for end users.
           </p>
         </div>
-
-        <div className="flex gap-4 justify-center">
-          {Object.entries(cardAboutItems).map(([key, item]) => {
-            return (
-              <CardAbout
-                key={item.id}
-                title={item.title}
-                subtitle={item.subtitle}
-                icon={item.icon}
-              />
-            );
-          })}
+        <div className="flex gap-4 justify-between ">
+          {Object.entries(cardAboutItems).map(
+            ([key, { id, title, subtitle, icon }]) => {
+              return (
+                <CardAbout
+                  key={id}
+                  title={title}
+                  subtitle={subtitle}
+                  icon={icon}
+                />
+              );
+            }
+          )}
         </div>
       </div>
     </section>

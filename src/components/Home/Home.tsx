@@ -1,4 +1,5 @@
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { Button } from "../Button";
 
 export function Home() {
   return (
@@ -6,7 +7,7 @@ export function Home() {
       className="pt-32 pb-4 shadow-negative
     "
     >
-      <div className="flex justify-around text-gray-100 ">
+      <div className="flex justify-around text-gray-100 xl:max-w-6xl xl:m-auto xl:justify-between">
         <div className="w-1/2 max-w-[426px]">
           <h2 className="font-semibold text-3xl mb-2">Hello, i'm</h2>
           <span className="text-5xl font-semibold"> Matheus Araújo </span>
@@ -15,23 +16,23 @@ export function Home() {
             Freelance UI designer, Fullstack developer, & Data Miner. I create
             seamless web experiences for end-users.
           </p>
-          <div className="mt-8 font-semibold flex gap-8 items-center text-sm">
-            <a
-              href="https://www.linkedin.com/in/matheusaraujof/"
-              target="__blank"
-              className="px-6 py-[10px] bg-purple-700 rounded-lg flex gap-2 items-center hover:bg-purple-800 transition-colors"
+          <div className="mt-8 font-semibold flex gap-4 items-center text-sm">
+            <Button
+              linkTo="https://www.linkedin.com/in/matheusaraujof/"
+              type="primary"
+              title="Linkedin"
+              size="large"
             >
-              Linkedin
               <AiFillLinkedin size={20} />
-            </a>
-            <a
-              href="https://github.com/matheusafd"
-              target="__blank"
-              className="px-8 py-[10px] border-[2px] border-purple-700 rounded-lg flex gap-2 items-center bg-dark-900 hover:bg-purple-700 hover:border-gray-200 transition-colors"
+            </Button>
+            <Button
+              linkTo="https://github.com/matheusafd"
+              type="secundary"
+              title="Github"
+              size="large"
             >
-              Github
               <AiFillGithub size={20} />
-            </a>
+            </Button>
           </div>
         </div>
         <div className=" bg-purple-700 w-[400px] h-72 rounded-extend ">

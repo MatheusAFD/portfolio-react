@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.text:nth-child(odd) h1 {
+  @apply text-purple-700;
+}
+
+.text:hover:nth-child(odd) h1 {
+  @apply text-gray-100;
+}
