@@ -1,4 +1,4 @@
-const ProjectsList = {
+const ProjectsData = {
   PROJECT1: {
     imgURL: "https://github.com/matheusafd.png",
     title: "project",
@@ -25,4 +25,4 @@ const ProjectsList = {
   },
 };
 
-export { ProjectsList };
+export { ProjectsData };

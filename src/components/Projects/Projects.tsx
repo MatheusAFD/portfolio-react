@@ -1,5 +1,5 @@
 import { CardProjects } from "../Cards/CardProjects";
-import { ProjectsList } from "../../util/ProjectsList";
+import { ProjectsData } from "../../data/ProjectsData";
 import { TitleSection } from "../TitleSection";
 
 export function Projects() {
@@ -13,13 +13,14 @@ export function Projects() {
         </p>
       </div>
       <ul className="grid grid-cols-3 justify-around max-w-6xl m-auto gap-4 gap-y-10">
-        {Object.entries(ProjectsList).map(
+        {Object.entries(ProjectsData).map(
           ([
             key,
-            { deployLink, description, imgURL, repositoryLink, title },
+            { imgURL, title, description, deployLink, repositoryLink },
           ]) => {
             return (
               <CardProjects
+                key={key}
                 title={title}
                 imgURL={imgURL}
                 description={description}

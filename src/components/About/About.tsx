@@ -1,5 +1,5 @@
 import { CardAbout } from "../Cards/CardAbout";
-import { cardAboutItems } from "../../util/AboutData";
+import { cardAboutItems } from "../../data/AboutData";
 import { TitleSection } from "../TitleSection";
 
 export function About() {

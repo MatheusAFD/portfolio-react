@@ -1,11 +1,11 @@
 import classNames from "classnames";
-
 interface ButtonProps {
   title: string;
-  linkTo: string;
+  linkTo?: string;
   children?: any;
   size: "small" | "large";
   type: "primary" | "secundary";
+  className?: string;
 }
 
 export function Button(props: ButtonProps) {
@@ -13,13 +13,13 @@ export function Button(props: ButtonProps) {
     <a
       href={props.linkTo}
       className={classNames(
-        "px-8 py-2 flex items-center transition-colors rounded-lg",
+        `px-8 py-2 flex items-center transition-colors rounded-lg ${props.className}`,
         {
-          "bg-purple-700  flex items-center hover:bg-purple-800":
+          "bg-purple-700  flex items-center hover:bg-purple-800 hover:text-gray-200":
             props.type === "primary",
           "border-[2px] border-purple-700 hover:bg-purple-700 hover:border-white":
             props.type === "secundary",
-          "px-8 py-[11px] min-w-[160px]": props.size == "large",
+          "px-8 py-[11px] min-w-[160px]": props.size === "large",
         }
       )}
       target="__blank"

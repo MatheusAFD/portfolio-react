@@ -10,7 +10,7 @@ interface CardProjectsProps {
 
 export function CardProjects(props: CardProjectsProps) {
   return (
-    <li className="w-[343px] h-[417px] bg-[#31313F] flex flex-col gap-4 rounded-lg place-self-center">
+    <li className="w-[343px] h-[417px] bg-[#31313F] flex flex-col gap-4 rounded-lg place-self-center shadow-md shadow-neutral-900">
       <div className="place-self-center pt-4">
         <img
           src={props.imgURL}

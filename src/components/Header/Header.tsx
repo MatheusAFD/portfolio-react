@@ -6,7 +6,7 @@ export function ItemNav(props: {
   return (
     <a href={props.linkTo}>
       {" "}
-      <li className={`hover:text-purple-700 cursor-pointer ${props.ClassName}`}>
+      <li className={`hover:text-purple-700 ${props.ClassName}`}>
         {props.title}
       </li>
     </a>

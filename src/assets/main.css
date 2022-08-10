@@ -9,3 +9,7 @@
 .text:hover:nth-child(odd) h1 {
   @apply text-gray-100;
 }
+
+a {
+  @apply cursor-pointer;
+}
