@@ -5,9 +5,9 @@ import { TitleSection } from "../TitleSection";
 export function Connect() {
   return (
     <div>
-      <TitleSection title="Connect with me:" />
+      <TitleSection title="Entre em contato:" />
       <p className="text-lg font-medium text-white mt-4 mb-6">
-        Satisfied with me? Please contact me
+        Gostou do que viu?
       </p>
 
       <div className="text-purple-700 flex gap-5">

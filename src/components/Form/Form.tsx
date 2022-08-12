@@ -3,7 +3,7 @@ import { EmailForm } from "./EmailForm";
 
 export function Form() {
   return (
-    <section className="flex justify-between max-w-6xl m-auto p-4 mt-36">
+    <section className="flex flex-col md:flex-row justify-between gap-5 max-w-6xl m-auto p-4 mt-10 md:mt-28">
       <Connect />
       <EmailForm />
     </section>
