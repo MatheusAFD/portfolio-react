@@ -7,7 +7,8 @@ const servicesData = {
   WEB: {
     icon: <BsFileEarmarkCode size={52} />,
     title: "desenvolvimento web",
-    description: "Paginas com uma bom design seguindo o padrão Pixel Perfect.",
+    description:
+      "Paginas com uma excelente design seguindo o padrão Pixel Perfect, procurando sempre resolver um problema.",
   },
 
   REACT: {
@@ -35,7 +36,7 @@ const servicesData = {
     icon: <DiLinux size={52} />,
     title: "Linux",
     description:
-      "Utilizo o ambiente linux para no meu ambiente de desenvolvimento, fazendo grande uso de seu terminal.",
+      "Utilizo o ambiente linux para me ajudar no meu ambiente de desenvolvimento, fazendo grande uso de seu terminal.",
   },
 };
 

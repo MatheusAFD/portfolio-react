@@ -6,7 +6,7 @@ export function About() {
   return (
     <section className="p-4 mt-24 bg-dark-800 ">
       <div className=" text-gray-100 max-w-[1100px] m-auto flex flex-col  2xl:m-auto">
-        <TitleSection title="About me:" />
+        <TitleSection title="Sobre mim:" />
         <p className="mt-2 leading-8 font-semibold">
           Formado técnico em Informática e atualmente estudante de Ciência da
           computação. Focado no desenvolvimento web front end, procuro

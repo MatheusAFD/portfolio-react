@@ -52,7 +52,7 @@ export function EmailForm() {
       className="flex flex-col justify-end text-gray-100"
     >
       <p className="text-gray-100 text-2xl font-medium">
-        Formuçário para contato
+        Formulário para contato
       </p>
       <InputForm type="text" placeholder="Nome:" name="from_name" />
       <InputForm type="email" placeholder="E-mail:" name="from_email" />

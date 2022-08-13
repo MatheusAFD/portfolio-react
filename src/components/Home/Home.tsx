@@ -4,7 +4,7 @@ import { Button } from "../Button";
 export function Home() {
   return (
     <main
-      className="pt-32 pb-4 shadow-negative
+      className="pt-44 md:pt-32 pb-4 shadow-negative
     "
     >
       <div className="flex flex-col-reverse p-4 gap-4 md:flex-row text-gray-100 xl:max-w-6xl xl:m-auto justify-between">
@@ -16,8 +16,8 @@ export function Home() {
           </span>
 
           <p className="mt-3 font-medium leading-7 text-gray-200 lg:max-w-[34ch]">
-            Desenvolvedor Front-end. Eu crio páginas web procurando na melhor
-            experiência para o usuário.
+            Desenvolvedor Front-end. Eu crio páginas web proporcionando uma
+            melhor experiência para o usuário.
           </p>
           <div className="flex gap-4 items-center mt-8 font-semibold text-sm">
             <Button
@@ -38,12 +38,12 @@ export function Home() {
             </Button>
           </div>
         </div>
-        <div className="flex items-center m-auto lg:m-2 rounded-extend bg-purple-700 max-w-[330px] md:max-w-[400px] h-52 md:h-[280px]  ">
+        <div className="flex items-center m-auto lg:m-2 rounded-extend bg-purple-700 max-w-[330px] md:max-w-[400px] h-52 md:h-[280px] -z-10 ">
           <div className="flex justify-center  w-[400px] relative  ">
             <img
               src="https://imgur.com/YDXrWqd.png"
               alt=""
-              className="max-w-[400px] w-full  md:max-w-[400px absolute -top-56  md:-top-60 z-20 "
+              className="max-w-[400px] w-full md:max-w-[400px absolute -top-56  md:-top-60 "
             />
           </div>
         </div>

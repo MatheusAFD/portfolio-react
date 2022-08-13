@@ -6,10 +6,10 @@ export function Projects() {
   return (
     <>
       <div className="max-w-6xl px-4 m-auto  pb-6 mt-16 md:mt-32 ">
-        <TitleSection title="Featured projects:" />
+        <TitleSection title="Projetos destaque:" />
         <p className="text-lg font-medium text-white max-w-[90ch] leading-8 mt-4 mb-2">
           Trabalhei em projetos no caminho para ser desenvolvedor web, aqui
-          estão alguns projetos que trabalhei.
+          estão alguns projetos desenvolvidos.
         </p>
       </div>
       <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 m-auto max-w-6xl  gap-4 gap-y-10">
