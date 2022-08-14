@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { GiHamburgerMenu } from "react-icons/gi";
+import { RiMenu3Line } from "react-icons/ri";
 import { IoMdClose } from "react-icons/io";
 import { NavLinksData } from "../../data/NavLinksData";
 import { ItemNav } from "../ItemNav";
@@ -22,7 +22,7 @@ export function MobileMenu() {
             <IoMdClose size={32} className="text-purple-700" />
           </div>
         ) : (
-          <GiHamburgerMenu size={32} className="text-purple-700" />
+          <RiMenu3Line size={32} className="text-purple-700" />
         )}
       </button>
       {/* w-56 h-[350px] */}

@@ -48,6 +48,8 @@ export function Home() {
               alt=""
               className="max-w-[400px] w-full md:max-w-[400px absolute -top-56  md:-top-60"
               loading="lazy"
+              width={660}
+              height={660}
             />
           </div>
         </div>

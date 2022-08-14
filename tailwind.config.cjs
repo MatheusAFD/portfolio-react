@@ -13,17 +13,6 @@ module.exports = {
             opacity: "0.95",
             transform: "translateY(0)",
           },
-
-          "fade-out-down": {
-            "0%": {
-              opacity: "1",
-              transform: "translateX(0)",
-            },
-            "100%": {
-              opacity: "0",
-              transform: "translateY(100px)",
-            },
-          },
         },
       },
       animation: {
