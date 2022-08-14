@@ -1,7 +1,11 @@
+import logintw from "../assets/img/login-tw.png";
+import ignitelab from "../assets/img/ignitelab.png";
+import patissier from "../assets/img/patissier.png";
+import address from "../assets/img/address.png";
+
 const ProjectsData = {
   IGNITELAB: {
-    imgURL:
-      "https://www.handtalk.me/br/wp-content/uploads/sites/8/2018/11/capa-blog-2.png",
+    imgURL: ignitelab,
     title: "ignite lab",
     description:
       "Uma plataforma de eventos cujo videos são liberados conforme a data",
@@ -10,8 +14,7 @@ const ProjectsData = {
   },
 
   STATIONONE: {
-    imgURL:
-      "https://www.handtalk.me/br/wp-content/uploads/sites/8/2018/11/capa-blog-2.png",
+    imgURL: patissier,
     title: "doces - patissier",
     description: "Ecommerce de comida e cursos.",
     deployLink: "https://docespatissier.vercel.app/",
@@ -19,8 +22,7 @@ const ProjectsData = {
   },
 
   ADDRESS: {
-    imgURL:
-      "https://www.handtalk.me/br/wp-content/uploads/sites/8/2018/11/capa-blog-2.png",
+    imgURL: address,
     title: "autocomplete address",
     description: "Auto completa seu endereço após digitar o cep.",
     deployLink: "https://autocomplete-address.vercel.app/",
@@ -37,8 +39,7 @@ const ProjectsData = {
   },
 
   TAILWINDLOGIN: {
-    imgURL:
-      "https://www.handtalk.me/br/wp-content/uploads/sites/8/2018/11/capa-blog-2.png",
+    imgURL: logintw,
     title: "Tailwind | Login page",
     description: "Página de login para iniciar os estudos em TailwindCSS",
     deployLink: "https://tailwind-introduction.vercel.app/",

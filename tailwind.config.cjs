@@ -3,6 +3,33 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      keyframes: {
+        "fade-in-down": {
+          "0%": {
+            opacity: "0",
+            transform: "translateX(100px)",
+          },
+          "100%": {
+            opacity: "0.95",
+            transform: "translateY(0)",
+          },
+
+          "fade-out-down": {
+            "0%": {
+              opacity: "1",
+              transform: "translateX(0)",
+            },
+            "100%": {
+              opacity: "0",
+              transform: "translateY(100px)",
+            },
+          },
+        },
+      },
+      animation: {
+        "fade-in-down": "fade-in-down .5s ease-in-out",
+        "fade-out-down": "fade-in-down .5s ease-in-out",
+      },
       boxShadow: {
         negative: "0px 96px 0px 0px #181824",
       },

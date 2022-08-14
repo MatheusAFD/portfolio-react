@@ -1,5 +1,6 @@
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { Button } from "../Button";
+import profile from "../../assets/img/profile.png";
 
 export function Home() {
   return (
@@ -43,9 +44,10 @@ export function Home() {
         <div className="flex items-center m-auto lg:m-2 rounded-extend bg-purple-700 max-w-[330px] md:max-w-[400px] h-52 md:h-[280px] -z-10 ">
           <div className="flex justify-center  w-[400px] relative  ">
             <img
-              src="https://imgur.com/YDXrWqd.png"
+              src={profile}
               alt=""
-              className="max-w-[400px] w-full md:max-w-[400px absolute -top-56  md:-top-60 "
+              className="max-w-[400px] w-full md:max-w-[400px absolute -top-56  md:-top-60"
+              loading="lazy"
             />
           </div>
         </div>

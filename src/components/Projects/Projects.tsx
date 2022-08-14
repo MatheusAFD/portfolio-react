@@ -17,13 +17,12 @@ export function Projects() {
       </div>
       <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 m-auto max-w-6xl  gap-4 gap-y-10">
         {Object.entries(ProjectsData).map(([key, item]) => {
-          console.log(item.deployLink);
-
           return (
             <CardProjects
               key={key}
               title={item.title}
               imgURL={item.imgURL}
+              imgALT={item.title}
               description={item.description}
               deployLink={item.deployLink}
               repositoryLink={item.repositoryLink}

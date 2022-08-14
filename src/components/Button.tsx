@@ -24,6 +24,7 @@ export function Button(props: ButtonProps) {
         }
       )}
       target="__blank"
+      translate="no"
     >
       <div className="flex gap-2">
         {props.title}
