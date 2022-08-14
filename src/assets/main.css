@@ -13,3 +13,7 @@
 a {
   @apply cursor-pointer;
 }
+
+:target {
+  @apply scroll-mt-20 md:scroll-mt-16;
+}

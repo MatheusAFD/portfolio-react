@@ -7,6 +7,7 @@ export function Home() {
       className="pt-44 md:pt-32 pb-4 shadow-negative
     "
       id="home"
+      data-aos="fade-right"
     >
       <div className="flex flex-col-reverse p-4 gap-4 md:flex-row text-gray-100 xl:max-w-6xl xl:m-auto justify-between">
         <div className="lg:w-1/2 lg:max-w-[426px] mt-10">

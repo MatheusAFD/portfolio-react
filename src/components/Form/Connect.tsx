@@ -6,7 +6,7 @@ export function Connect() {
   return (
     <div>
       <TitleSection title="Gostou do que viu?" />
-      <p className="text-lg font-medium text-white mt-4 mb-6 ">
+      <p className="text-lg font-medium text-white mt-2 mb-6 ">
         Entre em contato:
       </p>
 

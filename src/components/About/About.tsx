@@ -4,7 +4,11 @@ import { TitleSection } from "../TitleSection";
 
 export function About() {
   return (
-    <section className="p-4 mt-24 bg-dark-800" id="sobre">
+    <section
+      className="p-4 mt-24 bg-dark-800 section"
+      id="sobre"
+      data-aos="fade-right"
+    >
       <div className=" text-gray-100 max-w-[1100px] m-auto flex flex-col  2xl:m-auto">
         <TitleSection title="Sobre mim:" />
         <p className="mt-2 leading-8 font-semibold">

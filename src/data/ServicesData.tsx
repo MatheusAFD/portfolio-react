@@ -1,7 +1,6 @@
 import { BsFileEarmarkCode } from "react-icons/bs";
 import { FaMobileAlt, FaReact } from "react-icons/fa";
 import { DiGitBranch, DiLinux } from "react-icons/di";
-import { MdDesignServices } from "react-icons/md";
 
 const servicesData = {
   WEB: {

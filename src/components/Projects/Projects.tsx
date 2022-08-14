@@ -4,7 +4,7 @@ import { TitleSection } from "../TitleSection";
 
 export function Projects() {
   return (
-    <>
+    <section data-aos="fade-right">
       <div
         className="max-w-6xl px-4 m-auto  pb-6 mt-16 md:mt-32 "
         id="projetos"
@@ -31,6 +31,6 @@ export function Projects() {
           );
         })}
       </ul>
-    </>
+    </section>
   );
 }

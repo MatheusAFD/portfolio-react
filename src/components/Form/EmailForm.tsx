@@ -22,13 +22,11 @@ export function EmailForm() {
         PUBLIC_KEY
       );
 
-      const data = await response;
-
       form.current.reset();
       setLoading(false);
       setSucessMessage(true);
 
-      return data;
+      return response;
     } catch (err) {
       return err;
     } finally {
@@ -40,7 +38,7 @@ export function EmailForm() {
     if (sucessMessage === true) {
       setTimeout(() => {
         setSucessMessage(false);
-      }, 3500);
+      }, 4000);
     }
   }, [sucessMessage]);
 
@@ -62,18 +60,19 @@ export function EmailForm() {
         name="message"
         className="bg-[#31313f] p-4 w-full rounded-lg mt-4 focus:outline-purple-700 outline-none"
       />
-      <input
-        disabled={loading}
-        type="submit"
-        value={loading !== true ? "Enviar" : "Enviando"}
-        className="flex place-self-start items-center px-14 py-3 mt-4 cursor-pointer transition-colors rounded-lg bg-purple-700    hover:bg-purple-800 hover:text-gray-200 disabled:opacity-50"
-      />
-
-      {sucessMessage && (
-        <p className="mt-4 text-white animate-pulse">
-          Mensagem enviada com sucesso !!
-        </p>
-      )}
+      <div className="flex gap-4 items-center">
+        <input
+          disabled={loading}
+          type="submit"
+          value={loading !== true ? "Enviar" : "Enviando"}
+          className="flex place-self-start items-center px-14 py-3 mt-4 cursor-pointer transition-colors rounded-lg bg-purple-700    hover:bg-purple-800 hover:text-gray-200 disabled:opacity-50"
+        />
+        {sucessMessage && (
+          <p className="mt-4 text-white animate-pulse">
+            Mensagem enviada com sucesso!
+          </p>
+        )}
+      </div>
     </form>
   );
 }
