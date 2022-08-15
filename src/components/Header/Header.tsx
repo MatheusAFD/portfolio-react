@@ -13,7 +13,7 @@ export function Header() {
     >
       <div className="p-4 max-w-6xl m-auto text-gray-100 flex justify-between items-center">
         <h1 className=" text-purple-700 font-semibold text-xl">
-          Matheus Araújo
+          <a href="#home">Matheus Araújo</a>
         </h1>
         <nav className="text-base font-semibold md:flex z-30 ">
           <ul className="hidden md:flex gap-4 ">

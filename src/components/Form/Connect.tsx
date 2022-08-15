@@ -17,7 +17,7 @@ export function Connect() {
         <a href="https://www.linkedin.com/in/matheusaraujof/" target="__blank">
           <AiFillLinkedin size={32} />
         </a>
-        <a href="https://www.linkedin.com/in/matheusaraujof/" target="__blank">
+        <a href="https://discord.com/users/283706203685781504" target="__blank">
           <FaDiscord size={32} />
         </a>
       </div>
