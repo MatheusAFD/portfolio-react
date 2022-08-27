@@ -4,7 +4,7 @@ import { TitleSection } from "../TitleSection";
 
 export function Projects() {
   return (
-    <section data-aos="fade-right">
+    <section data-aos="fade-right" aria-label="Projetos desenvolvidos">
       <div
         className="max-w-6xl px-4 m-auto  pb-6 mt-16 md:mt-32 "
         id="projetos"

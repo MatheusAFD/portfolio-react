@@ -8,6 +8,7 @@ export function About() {
       className="p-4 mt-24 bg-dark-800 section"
       id="sobre"
       data-aos="fade-right"
+      aria-label="Sobre mim"
     >
       <div className=" text-gray-100 max-w-[1100px] m-auto flex flex-col  2xl:m-auto">
         <TitleSection title="Sobre mim:" />

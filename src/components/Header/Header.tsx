@@ -15,7 +15,10 @@ export function Header() {
         <h1 className=" text-purple-700 font-semibold text-xl">
           <a href="#home">Matheus Araújo</a>
         </h1>
-        <nav className="text-base font-semibold md:flex z-30 ">
+        <nav
+          className="text-base font-semibold md:flex z-30"
+          aria-label="navegação Desktop"
+        >
           <ul className="hidden md:flex gap-4 ">
             {Object.entries(NavLinksData).map(([key, { text, linkTo }]) => {
               return <ItemNav key={key} title={text} linkTo={linkTo} />;

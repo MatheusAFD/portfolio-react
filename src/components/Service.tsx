@@ -3,7 +3,7 @@ import { TitleSection } from "./TitleSection";
 
 export function Service() {
   return (
-    <section data-aos="fade-right">
+    <section data-aos="fade-right" aria-label="Tech skills">
       <div className="max-w-6xl m-auto px-4  mt-16 md:mt-32 ">
         <TitleSection title="Tech skills que possuo:" />
       </div>
