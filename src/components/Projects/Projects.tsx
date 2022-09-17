@@ -26,6 +26,7 @@ export function Projects() {
               description={item.description}
               deployLink={item.deployLink}
               repositoryLink={item.repositoryLink}
+              techs={item.techs}
             />
           );
         })}
