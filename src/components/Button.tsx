@@ -1,5 +1,4 @@
 import classNames from "classnames";
-import { AllHTMLAttributes } from "react";
 interface ButtonProps {
   title: string;
   linkTo?: string;

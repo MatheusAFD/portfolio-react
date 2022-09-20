@@ -1,5 +1,6 @@
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { Button } from "../Button";
+
 import profile from "../../assets/img/profile.png";
 
 export function Home() {

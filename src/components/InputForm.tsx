@@ -1,16 +1,12 @@
-interface InputFormProps {
-  placeholder: string;
-  name: string;
-  type: string;
-}
+import { InputHTMLAttributes } from "react";
 
-export function InputForm(props: InputFormProps) {
+interface InputProps extends InputHTMLAttributes<HTMLInputElement> {}
+
+export function InputForm(props: InputProps) {
   return (
     <input
-      type={props.type}
+      {...props}
       className="bg-[#31313f] p-4 w-full  rounded-lg mt-4 focus:outline-purple-700 outline-none"
-      placeholder={props.placeholder}
-      name={props.name}
     />
   );
 }

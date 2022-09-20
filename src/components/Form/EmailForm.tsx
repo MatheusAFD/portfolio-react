@@ -52,6 +52,7 @@ export function EmailForm() {
       <p className="text-gray-100 text-2xl font-medium">
         Formulário para contato
       </p>
+
       <InputForm type="text" placeholder="Nome:" name="from_name" />
       <InputForm type="email" placeholder="E-mail:" name="from_email" />
 
@@ -65,7 +66,7 @@ export function EmailForm() {
           disabled={loading}
           type="submit"
           value={loading !== true ? "Enviar" : "Enviando"}
-          className="flex place-self-start items-center px-14 py-3 mt-4 cursor-pointer transition-colors rounded-lg bg-purple-700    hover:bg-purple-800 hover:text-gray-200 disabled:opacity-50"
+          className="flex place-self-start items-center px-14 py-3 mt-4 cursor-pointer transition-colors rounded-lg bg-purple-700 hover:bg-purple-800 hover:text-gray-200 disabled:opacity-50"
         />
         {sucessMessage && (
           <p className="mt-4 text-white animate-pulse">

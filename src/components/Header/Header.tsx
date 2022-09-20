@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useRef } from "react";
 import { MobileMenu } from "./MobileMenu";
 import { ItemNav } from "../ItemNav";
 import { NavLinksData } from "../../data/NavLinksData";
@@ -9,7 +9,7 @@ export function Header() {
   return (
     <header
       ref={header}
-      className="bg-dark-900 w-full fixed md:static top-0 left-0 transition-opacity duration-500 ease-out overflow-y-hidden shadow-sm shadow-purple-800"
+      className="bg-dark-900 w-full fixed md:static top-0 left-0 transition-opacity duration-500 ease-out overflow-y-hidden shadow-sm shadow-purple-800 z-50"
     >
       <div className="p-4 max-w-6xl m-auto text-gray-100 flex justify-between items-center">
         <h1 className=" text-purple-700 font-semibold text-xl">
