@@ -20,7 +20,6 @@ export function CardProjects(props: CardProjectsProps) {
         <img
           src={props.imgURL}
           alt={`Projeto ${props.imgALT}`}
-          loading="lazy"
           className="w-[320px] h-52 border-2 object-cover border-purple-700 rounded"
         />
       </div>
