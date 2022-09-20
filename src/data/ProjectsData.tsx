@@ -1,8 +1,8 @@
 import logintw from "../assets/img/login-tw.png";
 import ignitelab from "../assets/img/ignitelab.png";
-import docespatissier from "../assets/img/docespatissier.png";
+import docespatissier from "../assets/img/docespatissier.jpg";
 import address from "../assets/img/address.png";
-import nlwesports from "../assets/img/nlwesports.png";
+import nlwesports from "../assets/img/nlwesports.jpg";
 
 const ProjectsData = {
   STATIONONE: {
@@ -24,7 +24,7 @@ const ProjectsData = {
   NLWESPORTS: {
     imgURL: nlwesports,
     title: "NLW eSports",
-    description: "Aplicação para conectar pessoas no mundo do game.",
+    description: "Aplicação para conectar pessoas no mundo dos jogos.",
     techs: [
       "React",
       "React Native",
