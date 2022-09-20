@@ -17,3 +17,7 @@ a {
 :target {
   @apply scroll-mt-20 md:scroll-mt-16;
 }
+
+.slide-content {
+  @apply h-[500px];
+}

@@ -28,7 +28,7 @@ export function MobileMenu() {
       {/* w-56 h-[350px] */}
       <nav aria-label="navegação Mobile" className="first:text-purple-700">
         {openMenu && (
-          <ul className="bg-dark-900 z-50 w-full h-screen flex flex-col justify-center items-center rounded-md gap-8 fixed right-0 md:hidden    animate-fade-in-down opacity-95 ">
+          <ul className="bg-dark-900 w-full h-screen flex flex-col justify-center items-center rounded-md gap-8 fixed right-0 md:hidden   animate-fade-in-down  opacity-95 z-50">
             {Object.entries(NavLinksData).map(([key, { text, linkTo }]) => {
               return <ItemNav key={key} title={text} linkTo={linkTo} />;
             })}
