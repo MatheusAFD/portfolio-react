@@ -36,8 +36,8 @@ const ProjectsData = {
       "Tailwind",
       "Radix UI",
     ],
-    deployLink: "https://docespatissier.vercel.app/",
-    repositoryLink: "https://github.com/MatheusAFD/stationOne-app",
+    deployLink: "",
+    repositoryLink: "https://github.com/MatheusAFD/nlw-esports/",
   },
 
   IGNITELAB: {
@@ -48,6 +48,7 @@ const ProjectsData = {
       "React",
       "TypeScript",
       "GraphQL",
+      "Apollo",
       "Headless UI",
       "Date-fns",
       "Vime",

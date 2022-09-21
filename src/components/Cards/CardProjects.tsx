@@ -37,7 +37,7 @@ export function CardProjects(props: CardProjectsProps) {
         <div className="flex gap-2 flex-wrap">
           {props.techs?.map((item) => {
             return (
-              <span className=" border-purple-700 border place-self-start p-1 text-xs text-purple-600 rounded-md">
+              <span className="animate-pulse border-purple-700 border place-self-start p-1 text-xs text-purple-600 rounded-md">
                 {item}
               </span>
             );
