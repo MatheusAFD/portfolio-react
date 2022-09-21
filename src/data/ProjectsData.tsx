@@ -34,6 +34,7 @@ const ProjectsData = {
       "Prisma",
       "SQLite",
       "Tailwind",
+      "Radix UI",
     ],
     deployLink: "https://docespatissier.vercel.app/",
     repositoryLink: "https://github.com/MatheusAFD/stationOne-app",

@@ -52,7 +52,7 @@ export function Projects() {
       </div>
       <div
         ref={ref}
-        className=" m-auto max-w-[350px] sm:max-w-[350px] md:max-w-[750px] xl:max-w-6xl md:gap-4 lg:gap-0 flex gap-y-10 keen-slider z-0 relative"
+        className="m-auto max-w-[350px] sm:max-w-[350px] md:max-w-[750px]  xl:max-w-6xl md:gap-4 lg:gap-0 flex gap-y-10 keen-slider z-0 relative"
       >
         {Object.entries(ProjectsData).map(([key, item]) => {
           return (
@@ -65,7 +65,7 @@ export function Projects() {
               deployLink={item.deployLink}
               repositoryLink={item.repositoryLink}
               techs={item.techs}
-              className="keen-slider__slide slide-content"
+              className="keen-slider__slide slide-content "
             />
           );
         })}
