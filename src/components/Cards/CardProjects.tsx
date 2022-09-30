@@ -21,6 +21,7 @@ export function CardProjects(props: CardProjectsProps) {
         <Image
           src={props.imgURL}
           alt={`Projeto ${props.imgALT}`}
+          width={320}
           className="w-[320px] h-52 border-2 object-cover border-purple-700 rounded"
           classNameSkeleton="w-[320px] h-52 border-2 object-cover border-purple-700 rounded"
         />

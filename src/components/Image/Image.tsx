@@ -7,7 +7,7 @@ import "react-loading-skeleton/dist/skeleton.css";
 interface ImageProps {
   src: string;
   alt: string;
-  loading?: "eager" | "lazy";
+  width?: number;
   className: string;
   classNameSkeleton: string;
 }
@@ -24,13 +24,13 @@ export function Image(props: ImageProps) {
               baseColor="#282162"
               className={props.classNameSkeleton}
               duration={1}
+              width={props.width}
             />
           </p>
         </SkeletonTheme>
       )}
 
       <img
-        loading={props.loading}
         src={props.src}
         alt={props.alt}
         onLoad={() => {
