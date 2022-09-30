@@ -5,6 +5,7 @@ import profile from "../../assets/img/profile.png";
 import { Image } from "../Image/Image";
 
 export function Home() {
+  const sizeSkeleton = window.screen.width < 640 ? 330 : 400;
   return (
     <main
       className="pt-44 md:pt-32 pb-4 shadow-negative
@@ -49,7 +50,8 @@ export function Home() {
               src={profile}
               alt="imagem"
               className="max-w-[400px] w-full md:max-w-[400px absolute -top-56  md:-top-60"
-              classNameSkeleton="w-[340px] h-[350px] -top-10 md:w-[400px] md:h-[370px] md:-top-10"
+              classNameSkeleton=" h-[350px] -top-10 md:w-[400px] md:h-[370px] md:-top-10"
+              width={sizeSkeleton}
             />
           </div>
         </div>

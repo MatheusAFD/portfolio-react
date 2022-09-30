@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import classNames from "classnames";
 import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 
@@ -14,6 +14,7 @@ interface ImageProps {
 
 export function Image(props: ImageProps) {
   const [loading, setLoading] = useState<boolean>(true);
+  const ref = useRef<HTMLImageElement | any>();
 
   return (
     <>
@@ -31,6 +32,7 @@ export function Image(props: ImageProps) {
       )}
 
       <img
+        ref={ref}
         src={props.src}
         alt={props.alt}
         onLoad={() => {
