@@ -3,6 +3,10 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      backgroundImage: {
+        "img-gradient":
+          "linear-gradient(90deg, #eee 0px, #fff 50%, #eee 100%);",
+      },
       keyframes: {
         "fade-in-down": {
           "0%": {
