@@ -49,7 +49,7 @@ export function Home() {
               src={profile}
               alt="imagem"
               className="max-w-[400px] w-full md:max-w-[400px absolute -top-56  md:-top-60"
-              classNameSkeleton="w-[340px] h-[350px] -top-10 md:w-[400px] md:h-[400px] md:-top-10"
+              classNameSkeleton="w-[340px] h-[350px] -top-10 md:w-[400px] md:h-[370px] md:-top-10"
             />
           </div>
         </div>
