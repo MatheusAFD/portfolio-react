@@ -7,7 +7,6 @@ import "react-loading-skeleton/dist/skeleton.css";
 interface ImageProps {
   src: string;
   alt: string;
-  loading?: "eager" | "lazy";
   className: string;
   classNameSkeleton: string;
 }
@@ -30,7 +29,6 @@ export function Image(props: ImageProps) {
       )}
 
       <img
-        loading={props.loading}
         src={props.src}
         alt={props.alt}
         onLoad={() => {
