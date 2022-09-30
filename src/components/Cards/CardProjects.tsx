@@ -1,4 +1,5 @@
 import { Button } from "../Button";
+import { Image } from "../Image/Image";
 
 interface CardProjectsProps {
   title: string;
@@ -17,10 +18,11 @@ export function CardProjects(props: CardProjectsProps) {
       className={`flex flex-col gap-4 rounded-lg h-[490px] place-self-center bg-[#31313F] shadow-md shadow-neutral-900 ${props.className} z-10`}
     >
       <div className="place-self-center pt-4 p-3">
-        <img
+        <Image
           src={props.imgURL}
           alt={`Projeto ${props.imgALT}`}
           className="w-[320px] h-52 border-2 object-cover border-purple-700 rounded"
+          classNameSkeleton="w-[320px] h-52 border-2 object-cover border-purple-700 rounded"
         />
       </div>
       <div className=" px-6 grid grid-rows-[30px_70px_70px_auto] text-gray-100 sm:m-auto lg:m-0 ">
