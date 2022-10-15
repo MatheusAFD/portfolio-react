@@ -3,7 +3,7 @@ import ignitelab from "../assets/img/ignitelab.png";
 import docespatissier from "../assets/img/docespatissier.jpg";
 import address from "../assets/img/address.png";
 import nlwesports from "../assets/img/nlwesports.jpg";
-
+import ignitefeed from "../assets/img/ignitefeed.png";
 const ProjectsData = {
   STATIONONE: {
     imgURL: docespatissier,
@@ -38,6 +38,15 @@ const ProjectsData = {
     ],
     deployLink: "",
     repositoryLink: "https://github.com/MatheusAFD/nlw-esports/",
+  },
+
+  IGNITEFEED: {
+    imgURL: ignitefeed,
+    title: "Ignite Feed",
+    description: "Projeto do primeiro capítulo Ignite 2022",
+    techs: ["React", "TypeScript", "CSS Modules"],
+    deployLink: "https://ignite-feed-matheus.vercel.app/",
+    repositoryLink: "https://github.com/MatheusAFD/ignite-feed",
   },
 
   IGNITELAB: {
